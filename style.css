@@ -1,0 +1,18 @@
+/* Define the grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the pixels */
+.pixel {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Add styles for pixel interactions if needed */
